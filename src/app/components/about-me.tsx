@@ -17,7 +17,7 @@ export const AboutMe = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div>
             <h1 className=" text-4xl lg:text-6xl font-bold">My Background </h1>
-            <p className=" py-10 text-md lg:pr-10">
+            <p className=" py-10 text-md lg:pr-16">
             I am a 9th-semester student pursuing a degree in Information and Communication Technology Engineering, currently seeking an opportunity to complete my professional residency process. My main areas of interest include front-end and mobile development, as well as UI/UX design. I am 22 years old and study at the Instituto Tecnológico Superior de Ciudad Hidalgo.
 
             Throughout my academic journey, I have actively participated in various projects and activities that highlight my skills and dedication to continuous learning. Some of my most notable experiences include:
