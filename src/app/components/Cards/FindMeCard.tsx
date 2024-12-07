@@ -1,13 +1,11 @@
-
 import { Button } from "@/components/ui/button";
 import { motion } from "motion/react";
 import Link from "next/link";
 
 export const FutChampionsCard = () => {
-    return (
-        <Link
-      href="">
-        <motion.div
+  return (
+    <Link href="">
+      <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{
           opacity: 1,
@@ -33,7 +31,10 @@ export const FutChampionsCard = () => {
             <h2 className=" text-xl font-bold">FindMe App</h2>
             <p className="text-gray-600 dark:text-gray-400">2023</p>
           </div>
-          <p className="px-4 pt-2 text-sm">UX/UI Designer for the prototype of the FindMe Mobile App to help users to find home services near them.</p>
+          <p className="px-4 pt-2 text-sm">
+            UX/UI Designer for the prototype of the FindMe Mobile App to help
+            users to find home services near them.
+          </p>
           <div className="flex px-4 pt-2 mb-4">
             <p>Technologies: </p>
 
@@ -65,17 +66,18 @@ export const FutChampionsCard = () => {
                 d="M110 64.5c0 11.9-9.6 21.5-21.5 21.5S67 76.4 67 64.5S76.6 43 88.5 43S110 52.6 110 64.5m0 0"
               />
             </svg>
-
           </div>
-
           <div className="flex justify-center">
-          <Button 
-          onClick={() => window.location.href = './'}
-          variant="outline"
-          className="mb-4 w-28">Watch project</Button>
+            <Button
+              onClick={() => (window.location.href = "./")}
+              variant="outline"
+              className="mb-4 w-28 hidden"
+            >
+              Watch project
+            </Button>
           </div>
         </div>
       </motion.div>
-      </Link>
-    );
+    </Link>
+  );
 };

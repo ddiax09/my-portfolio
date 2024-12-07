@@ -165,7 +165,7 @@ export const FindMeCard = () => {
             <Button
               onClick={() => (window.location.href = "./")}
               variant="outline"
-              className="mb-4 w-28"
+              className="mb-4 w-28 hidden"
             >
               Watch project
             </Button>

@@ -1,4 +1,4 @@
-import { AboutMe } from "./components/about-me";
+
 import { AnimatedTestimonialsDemo } from "./components/about-me-section";
 import { Footer } from "./components/footer";
 import { HeroSection } from "./components/hero-section";
