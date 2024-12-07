@@ -9,14 +9,13 @@ export const HeroSection = () => {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="flex flex-col justify-center items-center text-center h-[80svh]  m-4 mt-20 lg:mx-20 rounded-2xl"
+      className="flex flex-col justify-center items-center text-center h-[80svh]  m-4 pt-20 lg:mx-20 rounded-2xl"
     >
       <h1 className="text-4xl lg:text-6xl pb-4 lg:font-bold">
         Let’s Build Something Great
       </h1>
       <h4 className="text-lg max-w-4xl">
-        Hi, my name is Humbert and I am a 9th-semester ICT Engineering student
-        passionate about front-end and mobile development, as well as IX / UI
+        Hi, my name is Humberto and I am a 9th-semester Information and Communication Technology Engineering student passionate about front-end and mobile development, as well as IX / UI
         design. Scroll down to know more about me.
       </h4>
       <div className="flex justify-between max-w-md pt-8">

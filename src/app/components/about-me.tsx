@@ -28,7 +28,7 @@ export const AboutMe = () => {
               <AccordionTrigger className="text-xl ">
                 Web Developer for the IEEE Student Branch at ITSH
               </AccordionTrigger>
-              <AccordionContent className="text-md text-muted-foreground">
+              <AccordionContent className="text-md text-gray-500 mt-8 dark:text-neutral-300">
                 I collaborated as the main designer and developer within the
                 IEEE Student Branch at the Instituto Tecnológico Superior de Huauchinango from June 2024 to December 2024. I developed the website for CIICTI 2024 and provided training to
                 other students at the institute to ensure they could manage the
@@ -40,7 +40,7 @@ export const AboutMe = () => {
                 <AccordionTrigger className="text-xl ">
                   Research Activities
                 </AccordionTrigger>
-                <AccordionContent className="text-md text-muted-foreground">
+                <AccordionContent className="text-md text-gray-500 mt-8 dark:text-neutral-300">
                   During the August December 2024 semester, I served as the
                   primary author of the article titled “PROJECTION OF VISITS TO
                   CULTURAL SITES IN MEXICO USING THE ARIMA MODEL.” I
@@ -54,7 +54,7 @@ export const AboutMe = () => {
                 <AccordionTrigger className="text-xl">
                   Summer Internship
                 </AccordionTrigger>
-                <AccordionContent className="text-md text-muted-foreground">
+                <AccordionContent className="text-md text-gray-500 mt-8 dark:text-neutral-300">
                   From June to August 2024, I participated in the Delfín Program
                   2024, completing a research internship at ITSH. I contributed
                   to projects involving virtual and augmented reality, such as
@@ -66,7 +66,7 @@ export const AboutMe = () => {
                 <AccordionTrigger className="text-xl ">
                   Web Development Course Instructor
                 </AccordionTrigger>
-                <AccordionContent className="text-md text-muted-foreground">
+                <AccordionContent className="text-md text-gray-500 mt-8 dark:text-neutral-300">
                   During the January June 2024 semester, I was an instructor for
                   the “Development and Deployment of Websites with HTML and CSS
                   Course.” Along with other colleagues, I taught high school
@@ -79,7 +79,7 @@ export const AboutMe = () => {
                 <AccordionTrigger className="text-xl ">
                   Lifelong Learning
                 </AccordionTrigger>
-                <AccordionContent className="text-md text-muted-foreground">
+                <AccordionContent className="text-md text-gray-500 mt-8 dark:text-neutral-300">
                   I always try to learn new things. I
                   continuously take courses beyond my academic curriculum, such
                   as the “Virtual and Augmented Reality Course” offered by

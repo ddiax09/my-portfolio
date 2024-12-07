@@ -35,7 +35,7 @@ export const NavBar = () => {
                 Recent Works
               </a>
               <a className="pr-2 hover:text-muted-foreground" href="./#AboutMe">
-                My Background
+                My Experience
               </a>
             </div>
           </div>
@@ -104,7 +104,7 @@ export const NavBar = () => {
               Recent Works
             </a>
             <a className="block py-2" href="./#AboutMe">
-              My Background
+              My Experience
             </a>
             <a
               className="block py-2 bg-primary text-center text-background rounded-lg"
