@@ -11,11 +11,6 @@ export const HeroSection = () => {
       transition={{ duration: 0.5 }}
       className="flex flex-col justify-center items-center text-center h-[80svh]  m-4 mt-20 lg:mx-20 rounded-2xl"
     >
-      <Avatar className="mb-4 w-20 h-20">
-        <AvatarImage src="./img/avatar.png" />
-        <AvatarFallback>HD</AvatarFallback>
-      </Avatar>
-
       <h1 className="text-4xl lg:text-6xl pb-4 lg:font-bold">
         Let’s Build Something Great
       </h1>

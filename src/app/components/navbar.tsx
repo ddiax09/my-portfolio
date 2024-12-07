@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import React, { useState } from "react";
 import { ModeToggle } from "./mode-toggle";
 import { Separator } from "@/components/ui/separator";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
 export const NavBar = () => {
   const [isClick, setisClick] = useState(false);
@@ -15,7 +16,11 @@ export const NavBar = () => {
       <div className="mx-auto px-4 lg:px-20">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <div className="flex-shink-0">
+            <div className="flex-shink-0 flex justify-center items-center">
+              <Avatar className=" w-10 h-10 mr-4 ">
+                <AvatarImage src="./img/avatar.png" />
+                <AvatarFallback>HD</AvatarFallback>
+              </Avatar>
               <a className="font-bold" href="./">
                 Humberto Diaz Nava
               </a>
@@ -23,9 +28,15 @@ export const NavBar = () => {
           </div>
           <div className="hidden md:block">
             <div className="ml-4 flex items center space-x-4">
-              <a className="pr-2 hover:text-muted-foreground" href="./">Home</a>
-              <a className="pr-2 hover:text-muted-foreground" href="./#MyWork">Recent Works</a>
-              <a className="pr-2 hover:text-muted-foreground" href="./#AboutMe">My Background</a>
+              <a className="pr-2 hover:text-muted-foreground" href="./">
+                Home
+              </a>
+              <a className="pr-2 hover:text-muted-foreground" href="./#MyWork">
+                Recent Works
+              </a>
+              <a className="pr-2 hover:text-muted-foreground" href="./#AboutMe">
+                My Background
+              </a>
             </div>
           </div>
           <div className="flex">
@@ -104,7 +115,7 @@ export const NavBar = () => {
           </div>
         </div>
       )}
-      <Separator/>
+      <Separator />
     </nav>
   );
 };
