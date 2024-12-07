@@ -13,7 +13,7 @@ export const HeroSection = () => {
       <h1 className="text-4xl lg:text-6xl pb-4 lg:font-bold">
         Let’s Build Something Great
       </h1>
-      <h4 className="text-lg max-w-4xl">
+      <h4 className="text-lg max-w-4xl text-gray-500 dark:text-neutral-300">
         Hi, my name is Humberto and I am a 9th-semester Information and Communication Technology Engineering student passionate about front-end and mobile development, as well as IX / UI
         design. Scroll down to know more about me.
       </h4>

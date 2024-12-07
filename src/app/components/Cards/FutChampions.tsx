@@ -31,7 +31,7 @@ export const FindMeCard = () => {
             <h2 className=" text-xl font-bold">FutChampions</h2>
             <p className="text-gray-600 dark:text-gray-400">2023</p>
           </div>
-          <p className="px-4 pt-2 text-sm">
+          <p className="px-4 pt-2 text-sm text-gray-500 dark:text-neutral-300">
             UX/UI Designer and Backend developer of the FutChampions Mobile App
             designed to help people manage local soccer tournaments.
           </p>

@@ -31,7 +31,7 @@ export const Ciicti2024Card = () => {
             <h2 className=" text-xl font-bold">CIICTI 2024 Website</h2>
             <p className="text-gray-600 dark:text-gray-400">2024</p>
           </div>
-          <p className="px-4 pt-2 text-sm">
+          <p className="px-4 pt-2 text-sm text-gray-500 dark:text-neutral-300">
             Developer of the official website for the International Congress of
             Engineering, Science, Technology, and Innovation (CIICTI) 2024.
           </p>

@@ -35,7 +35,7 @@ export function AnimatedTestimonialsDemo() {
               "I always try to learn new things. I continuously take courses beyond my academic curriculum, such as the “Virtual and Augmented Reality Course” offered by CIDESI in August 2024, the “Google UX Design Certificate Program” provided by Google on Coursera, and I recently started the “General English Certificate Program” offered by The Anglo Academy to further improve my English proficiency.",
             name: "More about me",
             designation: "Lifelong Learning",
-            src: "/img/Avatar.png",
+            src: "/img/About Me.png",
           },
       
   ];
@@ -43,7 +43,7 @@ export function AnimatedTestimonialsDemo() {
     <div className="mx-8 pt-20 lg:mx-20 w-auto my-10" id="AboutMe">
         <div>
             <h1 className=" text-4xl lg:text-6xl font-bold">My Experience </h1>
-            <p className=" py-10 text-lg lg:pr-16">
+            <p className=" py-10 text-lg lg:pr-16 text-gray-500 dark:text-neutral-300">
             I am a 9th-semester student pursuing a degree in Information and Communication Technology Engineering, currently seeking an opportunity to complete my professional residency process. My main areas of interest include front-end and mobile development, as well as UI/UX design. I am 22 years old and study at the Instituto Tecnológico Superior de Ciudad Hidalgo.
 
             Throughout my academic journey, I have actively participated in various projects and activities that highlight my skills and dedication to continuous learning. Some of my most notable experiences include:
