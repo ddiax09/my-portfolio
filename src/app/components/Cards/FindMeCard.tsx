@@ -25,6 +25,7 @@ export const FutChampionsCard = () => {
                 className="rounded-tl-lg rounded-tr-lg w-full h-auto mb-4"
                 alt="FindMe Mobile App display"
               />
+              
             </motion.div>
           </div>
           <div className="flex justify-between px-4">
@@ -69,9 +70,9 @@ export const FutChampionsCard = () => {
           </div>
           <div className="flex justify-center">
             <Button
-              onClick={() => (window.location.href = "./")}
+              onClick={() => (window.location.href = "./findme-app")}
               variant="outline"
-              className="mb-4 w-28 hidden"
+              className="mb-4 w-28"
             >
               Watch project
             </Button>

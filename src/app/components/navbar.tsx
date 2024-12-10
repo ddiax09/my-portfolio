@@ -18,7 +18,7 @@ export const NavBar = () => {
           <div className="flex items-center">
             <div className="flex-shink-0 flex justify-center items-center">
               <Avatar className=" w-10 h-10 mr-4 ">
-                <AvatarImage src="./img/avatar.png" />
+                <AvatarImage src="./img/About Me.png" />
                 <AvatarFallback>HD</AvatarFallback>
               </Avatar>
               <a className="font-bold" href="./">

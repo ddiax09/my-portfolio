@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "./components/theme-provider";
+import { Footer } from "./components/footer";
+import { NavBar } from "./components/navbar";
 
 
 export const metadata: Metadata = {
@@ -24,7 +26,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
             enableSystem
             disableTransitionOnChange
           >
+            <NavBar/>
             {children}
+            <Footer/>
           </ThemeProvider>
         </body>
       </html>

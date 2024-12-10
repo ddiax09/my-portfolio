@@ -12,7 +12,9 @@ export const FindMeCard = () => {
           y: 0,
           transition: { duration: 0.4, delay: 0.4 },
         }}
-        whileHover={{ y: -20 }}
+        whileHover={{ 
+          y: -20
+        }}
       >
         <div className=" mx-8 md:mx-0 rounded-2xl border shadow">
           <div className="overflow-hidden rounded-tl-lg rounded-tr-lg">
