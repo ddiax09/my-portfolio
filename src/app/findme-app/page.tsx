@@ -12,7 +12,7 @@ export default function Home() {
         <div className="md:grid md:grid-cols-2 gap-8 items-start pt-10">
           <p className="text-lg text-gray-500 dark:text-neutral-300 mb-4 md:mb-0">
             This case study details part of the design process used to create the mobile
-            app prototype "FindMe" designed to help people hire local providers
+            app prototype FindMe designed to help people hire local providers
             of home services.
           </p>
 
