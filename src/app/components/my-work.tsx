@@ -5,8 +5,6 @@ import { FutChampionsCard } from "./Cards/FutChampions";
 import { FindMeCard } from "./Cards/FindMeCard";
 import { TicsSiteCard } from "./Cards/TicsSite";
 import { BolgeanCard } from "./Cards/BolgeanCard";
-import { SuperBeeCard } from "./Cards/SuperBeeCard";
-
 export const MyWork = () => {
   return (
     <div className="" id="MyWork">
