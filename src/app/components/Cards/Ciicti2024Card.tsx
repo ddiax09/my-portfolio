@@ -104,14 +104,6 @@ export const Ciicti2024Card = () => {
               />
             </svg>
 
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="20"
-              viewBox="0 0 128 128"
-              fill="currentcolor"
-            >
-              <path d="M22.684 0h84.253v42.667H64.81zm0 42.667H64.81l42.127 42.666H64.81V128L22.684 85.333z" />
-            </svg>
           </div>
 
           <div className="flex justify-center">

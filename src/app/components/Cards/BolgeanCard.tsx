@@ -2,15 +2,15 @@ import { Button } from "@/components/ui/button";
 import { motion } from "motion/react";
 import Link from "next/link";
 
-export const FindMeCard = () => {
+export const BolgeanCard = () => {
   return (
-    <Link href="">
+    <Link href="./bolgean-app/" target="_blank">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{
           opacity: 1,
           y: 0,
-          transition: { duration: 0.4, delay: 0.4 },
+          transition: { duration: 0.4 },
         }}
         whileHover={{ y: -20 }}
       >
@@ -21,29 +21,28 @@ export const FindMeCard = () => {
               className="w-full h-auto"
             >
               <img
-                src="./img/FindMe/pic1.png"
+                src="./img/Bolgean/Bogean-Card.png"
                 className="rounded-tl-lg rounded-tr-lg w-full h-auto mb-4"
-                alt="FindMe Mobile App display"
+                alt="Bolgean App"
               />
-              
             </motion.div>
           </div>
           <div className="flex justify-between px-4">
-            <h2 className=" text-xl font-bold">FindMe App</h2>
+            <h2 className=" text-xl font-bold">Bolgean Desktop  App</h2>
             <p className="text-gray-600 dark:text-gray-400">2023</p>
           </div>
           <p className="px-4 pt-2 text-sm text-gray-500 dark:text-neutral-300">
-            UX/UI Designer for the prototype of the FindMe Mobile App to help
-            users to find home services near them.
+            UX / UI Designer and developer of the Bolgean software, a software system designed to provide information, calculate parameters, and recommend configurations for antennas in the telecommunications field.
           </p>
           <div className="flex px-4 pt-2 mb-4">
             <p>Technologies: </p>
+            <svg className="ml-4" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="#68217a" d="M29.821 4.321L24.023 2l-12.53 12.212l-7.66-5.827l-1.654.837V22.8l1.644.827l7.65-5.827L24.023 30l5.8-2.321V4.321ZM4.65 19.192v-6.374l3.55 3.167ZM16 15.985l7.082-5.3v10.639l-7.092-5.339Z"/><path fill="#fff" d="m15.995 15.985l7.082-5.299v10.638l-7.092-5.339zM4.65 19.192v-6.374l3.546 3.167z"/><path fill="#efeef0" d="M17.631 32.03H11.87l-4.359-16.5h6.705l.533 2.739l.533-2.739h6.703z"/><path fill="#efeef0" d="M27.556 32.03h-7.311v-16.5l7.37.011a4.52 4.52 0 0 1 3.24 2.115a5.03 5.03 0 0 1 .69 2.592a5.16 5.16 0 0 1-.643 2.471a5 5 0 0 1-.21.332a5 5 0 0 1 .6.771a5.04 5.04 0 0 1 .7 2.586a5.76 5.76 0 0 1-.623 2.89a5.33 5.33 0 0 1-3.7 2.713Z"/><path fill="#00519a" d="m13 17.153l1.749 8.993l1.751-8.993H20l-3.5 13.254H13L9.5 17.153Zm8.745 0h5.7a3.03 3.03 0 0 1 2.174 1.42a3.26 3.26 0 0 1 .428 1.656a3.44 3.44 0 0 1-.428 1.651a3.12 3.12 0 0 1-1.756 1.431a3.05 3.05 0 0 1 2.2 1.426a3.3 3.3 0 0 1 .435 1.7a4.04 4.04 0 0 1-.434 2.067a3.79 3.79 0 0 1-2.624 1.9h-5.69Zm3.5 5.207h.874a1.393 1.393 0 0 0 1.213-1.528a1.374 1.374 0 0 0-1.213-1.313h-.874Zm0 5.684h1.045a1.62 1.62 0 0 0 1.45-1.744a1.6 1.6 0 0 0-1.45-1.57h-1.045Z"/></svg>
 
             <svg
               className="ml-4"
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="26"
+              height="26"
               viewBox="0 0 128 128"
             >
               <path
@@ -68,9 +67,10 @@ export const FindMeCard = () => {
               />
             </svg>
           </div>
+
           <div className="flex justify-center">
             <Button
-              onClick={() => (window.location.href = "./findme-app")}
+              onClick={() => (window.location.href = "./bolgean-app/")}
               variant="outline"
               className="mb-4 w-28"
             >

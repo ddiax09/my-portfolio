@@ -10,7 +10,7 @@ export const TicsSiteCard = () => {
         whileInView={{
           opacity: 1,
           y: 0,
-          transition: { duration: 0.4 },
+          transition: { duration: 0.4, delay: 0.2 },
         }}
         whileHover={{ y: -20 }}
       >

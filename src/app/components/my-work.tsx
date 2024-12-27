@@ -1,9 +1,11 @@
 "use client";
 import { motion } from "motion/react";
 import { Ciicti2024Card } from "./Cards/Ciicti2024Card";
-import { FutChampionsCard } from "./Cards/FindMeCard";
-import { FindMeCard } from "./Cards/FutChampions";
+import { FutChampionsCard } from "./Cards/FutChampions";
+import { FindMeCard } from "./Cards/FindMeCard";
 import { TicsSiteCard } from "./Cards/TicsSite";
+import { BolgeanCard } from "./Cards/BolgeanCard";
+import { SuperBeeCard } from "./Cards/SuperBeeCard";
 
 export const MyWork = () => {
   return (
@@ -18,6 +20,7 @@ export const MyWork = () => {
       <Ciicti2024Card></Ciicti2024Card>
       <FutChampionsCard></FutChampionsCard>
       <FindMeCard></FindMeCard>
+      <BolgeanCard/>
       <TicsSiteCard/>
     </div>
     </div>

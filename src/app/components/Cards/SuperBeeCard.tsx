@@ -2,19 +2,17 @@ import { Button } from "@/components/ui/button";
 import { motion } from "motion/react";
 import Link from "next/link";
 
-export const FutChampionsCard = () => {
+export const SuperBeeCard = () => {
   return (
-    <Link href="">
+    <Link href="./" target="_blank">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{
           opacity: 1,
           y: 0,
-          transition: { duration: 0.4, delay: 0.2 },
+          transition: { duration: 0.4, delay: 0.4 },
         }}
-        whileHover={{ 
-          y: -20
-        }}
+        whileHover={{ y: -20 }}
       >
         <div className=" mx-8 md:mx-0 rounded-2xl border shadow">
           <div className="overflow-hidden rounded-tl-lg rounded-tr-lg">
@@ -23,64 +21,28 @@ export const FutChampionsCard = () => {
               className="w-full h-auto"
             >
               <img
-                src="./img/FutChampions/pic1.png"
+                src="./img/SuperBee/SuperBee-Card.png"
                 className="rounded-tl-lg rounded-tr-lg w-full h-auto mb-4"
-                alt="FutChampions Mobile App"
+                alt="Bolgean App"
               />
             </motion.div>
           </div>
           <div className="flex justify-between px-4">
-            <h2 className=" text-xl font-bold">FutChampions</h2>
-            <p className="text-gray-600 dark:text-gray-400">2023</p>
+            <h2 className=" text-xl font-bold">SuperBee Inventory System</h2>
+            <p className="text-gray-600 dark:text-gray-400">2022</p>
           </div>
           <p className="px-4 pt-2 text-sm text-gray-500 dark:text-neutral-300">
-            UX/UI Designer and Backend developer of the FutChampions Mobile App
-            designed to help people manage local soccer tournaments.
+            UX / UI Designer and developer of the Inventory System created for the SuperBee Suermarket.
           </p>
           <div className="flex px-4 pt-2 mb-4">
             <p>Technologies: </p>
-            <svg
-              className="mx-4"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 128 128"
-            >
-              <path
-                fill="#3FB6D3"
-                d="M12.3 64.2L76.3 0h39.4L32.1 83.6zm64 63.8h39.4L81.6 93.9l34.1-34.8H76.3L42.2 93.5z"
-              />
-              <path
-                fill="#27AACD"
-                d="m81.6 93.9l-20-20l-19.4 19.6l19.4 19.6z"
-              />
-              <path
-                fill="#19599A"
-                d="M115.7 128L81.6 93.9l-20 19.2L76.3 128z"
-              />
-              <linearGradient
-                id="IconifyId1939380516ed1d80d0"
-                x1="59.365"
-                x2="86.825"
-                y1="116.36"
-                y2="99.399"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop offset="0" stopColor="#1b4e94" />
-                <stop offset=".63" stopColor="#1a5497" />
-                <stop offset="1" stopColor="#195a9b" />
-              </linearGradient>
-              <path
-                fill="url(#IconifyId1939380516ed1d80d0)"
-                d="m61.6 113.1l30.8-8.4l-10.8-10.8z"
-              />
-            </svg>
+            <svg className="ml-4" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32"><path fill="#68217a" d="M29.821 4.321L24.023 2l-12.53 12.212l-7.66-5.827l-1.654.837V22.8l1.644.827l7.65-5.827L24.023 30l5.8-2.321V4.321ZM4.65 19.192v-6.374l3.55 3.167ZM16 15.985l7.082-5.3v10.639l-7.092-5.339Z"/><path fill="#fff" d="m15.995 15.985l7.082-5.299v10.638l-7.092-5.339zM4.65 19.192v-6.374l3.546 3.167z"/><path fill="#efeef0" d="M17.631 32.03H11.87l-4.359-16.5h6.705l.533 2.739l.533-2.739h6.703z"/><path fill="#efeef0" d="M27.556 32.03h-7.311v-16.5l7.37.011a4.52 4.52 0 0 1 3.24 2.115a5.03 5.03 0 0 1 .69 2.592a5.16 5.16 0 0 1-.643 2.471a5 5 0 0 1-.21.332a5 5 0 0 1 .6.771a5.04 5.04 0 0 1 .7 2.586a5.76 5.76 0 0 1-.623 2.89a5.33 5.33 0 0 1-3.7 2.713Z"/><path fill="#00519a" d="m13 17.153l1.749 8.993l1.751-8.993H20l-3.5 13.254H13L9.5 17.153Zm8.745 0h5.7a3.03 3.03 0 0 1 2.174 1.42a3.26 3.26 0 0 1 .428 1.656a3.44 3.44 0 0 1-.428 1.651a3.12 3.12 0 0 1-1.756 1.431a3.05 3.05 0 0 1 2.2 1.426a3.3 3.3 0 0 1 .435 1.7a4.04 4.04 0 0 1-.434 2.067a3.79 3.79 0 0 1-2.624 1.9h-5.69Zm3.5 5.207h.874a1.393 1.393 0 0 0 1.213-1.528a1.374 1.374 0 0 0-1.213-1.313h-.874Zm0 5.684h1.045a1.62 1.62 0 0 0 1.45-1.744a1.6 1.6 0 0 0-1.45-1.57h-1.045Z"/></svg>
 
             <svg
-              className="mr-4"
+              className="ml-4"
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="26"
+              height="26"
               viewBox="0 0 128 128"
             >
               <path
@@ -106,47 +68,10 @@ export const FutChampionsCard = () => {
             </svg>
 
             <svg
-              className="pr-4"
               xmlns="http://www.w3.org/2000/svg"
-              height="24"
-              viewBox="0 0 256 135"
-            >
-              <defs>
-                <radialGradient
-                  id="IconifyId1939380516ed1d80d2"
-                  cx=".837"
-                  cy="-125.811"
-                  r="363.057"
-                  gradientTransform="translate(76.464 81.918)scale(.463)"
-                  gradientUnits="userSpaceOnUse"
-                >
-                  <stop offset="0" stopColor="#FFF" />
-                  <stop offset=".5" stopColor="#4C6B97" />
-                  <stop offset="1" stopColor="#231F20" />
-                </radialGradient>
-              </defs>
-              <ellipse
-                cx="128"
-                cy="67.3"
-                fill="url(#IconifyId1939380516ed1d80d2)"
-                rx="128"
-                ry="67.3"
-              />
-              <ellipse cx="128" cy="67.3" fill="#6181B6" rx="123" ry="62.3" />
-              <path
-                fill="#FFF"
-                d="m152.9 87.5l6.1-31.4c1.4-7.1.2-12.4-3.4-15.7c-3.5-3.2-9.5-4.8-18.3-4.8h-10.6l3-15.6c.1-.6 0-1.2-.4-1.7s-.9-.7-1.5-.7h-14.6c-1 0-1.8.7-2 1.6l-6.5 33.3c-.6-3.8-2-7-4.4-9.6c-4.3-4.9-11-7.4-20.1-7.4H52.1c-1 0-1.8.7-2 1.6L37 104.7c-.1.6 0 1.2.4 1.7s.9.7 1.5.7h14.7c1 0 1.8-.7 2-1.6l3.2-16.3h10.9c5.7 0 10.6-.6 14.3-1.8q5.85-1.95 10.5-6.3c2.5-2.3 4.6-4.9 6.2-7.7l-2.6 13.5c-.1.6 0 1.2.4 1.7s.9.7 1.5.7h14.6c1 0 1.8-.7 2-1.6l7.2-37h10c4.3 0 5.5.8 5.9 1.2c.3.3.9 1.5.2 5.2L134.1 87c-.1.6 0 1.2.4 1.7s.9.7 1.5.7h15c.9-.3 1.7-1 1.9-1.9m-67.6-26c-.9 4.7-2.6 8.1-5.1 10s-6.6 2.9-12 2.9h-6.5l4.7-24.2h8.4c6.2 0 8.7 1.3 9.7 2.4c1.3 1.6 1.6 4.7.8 8.9m130-18.6c-4.3-4.9-11-7.4-20.1-7.4h-28.3c-1 0-1.8.7-2 1.6l-13.1 67.5c-.1.6 0 1.2.4 1.7s.9.7 1.5.7h14.7c1 0 1.8-.7 2-1.6l3.2-16.3h10.9c5.7 0 10.6-.6 14.3-1.8q5.85-1.95 10.5-6.3c2.6-2.4 4.8-5.1 6.4-8s2.8-6.1 3.5-9.6c1.7-8.7.4-15.5-3.9-20.5M200 61.5c-.9 4.7-2.6 8.1-5.1 10s-6.6 2.9-12 2.9h-6.5l4.7-24.2h8.4c6.2 0 8.7 1.3 9.7 2.4c1.4 1.6 1.7 4.7.8 8.9"
-              />
-              <path
-                fill="#000004"
-                d="M74.8 48.2c5.6 0 9.3 1 11.2 3.1s2.3 5.6 1.3 10.6c-1 5.2-3 9-5.9 11.2q-4.35 3.3-13.2 3.3h-8.9l5.5-28.2zM39 105h14.7l3.5-17.9h12.6c5.6 0 10.1-.6 13.7-1.8s6.8-3.1 9.8-5.9q3.75-3.45 6-7.5c1.5-2.7 2.6-5.7 3.2-9c1.6-8 .4-14.2-3.5-18.7s-10.1-6.7-18.6-6.7H52.1zm74.3-85.4h14.6l-3.5 17.9h13c8.2 0 13.8 1.4 16.9 4.3s4 7.5 2.8 13.9L151 87.1h-14.8l5.8-29.9c.7-3.4.4-5.7-.7-6.9s-3.6-1.9-7.3-1.9h-11.7l-7.5 38.7h-14.6zm76.2 28.6c5.6 0 9.3 1 11.2 3.1s2.3 5.6 1.3 10.6c-1 5.2-3 9-5.9 11.2q-4.35 3.3-13.2 3.3H174l5.5-28.2zM153.7 105h14.7l3.5-17.9h12.6c5.6 0 10.1-.6 13.7-1.8s6.8-3.1 9.8-5.9q3.75-3.45 6-7.5c1.5-2.7 2.6-5.7 3.2-9c1.6-8 .4-14.2-3.5-18.7s-10.1-6.7-18.6-6.7h-28.3z"
-              />
-            </svg>
-
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              height="24"
+              height="28"
               viewBox="0 0 512 349"
+              className="ml-3"
             >
               <path
                 fill="#00758F"
@@ -165,9 +90,9 @@ export const FutChampionsCard = () => {
 
           <div className="flex justify-center">
             <Button
-              onClick={() => (window.location.href = "./")}
+              onClick={() => (window.location.href = "./bolgean-app/")}
               variant="outline"
-              className="mb-4 w-28 hidden"
+              className="mb-4 w-28"
             >
               Watch project
             </Button>
